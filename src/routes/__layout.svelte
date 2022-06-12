@@ -1,17 +1,17 @@
 <script>
-    import '../app.css'; 
+	import '../app.css';
 </script>
 
 <main>
-    <slot></slot>
+	<slot />
 </main>
 
 <style>
-    main {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        margin-top: 1em;
-        max-width: clamp(23ch, 80%, 46ch)
-    }
+	main {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		margin-top: 1em;
+		max-width: clamp(23ch, 80%, 46ch);
+	}
 </style>
